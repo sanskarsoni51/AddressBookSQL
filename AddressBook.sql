@@ -32,3 +32,8 @@ ALTER TABLE contacts add (
     type VARCHAR(15)
 );
 DESCRIBE contacts;
+
+UPDATE contacts SET type = "friend" WHERE FirstName = "a";
+UPDATE contacts SET type = "family" WHERE FirstName = "sanskar";
+
+SELECT count(*) as TotalContact FROM contacts where type != "friend";
