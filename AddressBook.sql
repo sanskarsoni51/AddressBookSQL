@@ -12,3 +12,7 @@ PhoneNumber VARCHAR(15),
 email VARCHAR(319),
 primary key (email)
 );
+
+INSERT INTO contacts(FirstName,LastName,address,city,state,zip,PhoneNumber,email) values
+    ('a','a','a bazar','a','a',312001,'a','a@gmail.com'),
+    ('sanskar','soni','sadar bazar','chittorgarh','rajasthan',312001,'9887279510','sanskarsoni89@gmail.com');
