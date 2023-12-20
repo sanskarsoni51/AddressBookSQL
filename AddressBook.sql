@@ -21,3 +21,5 @@ SELECT * from contacts;
 UPDATE contacts SET city = "Mumbai" WHERE FirstName = "a";
 
 delete from contacts where FirstName = "sanskar";
+
+Select * from contacts where city="mumbai";
