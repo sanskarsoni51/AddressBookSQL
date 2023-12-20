@@ -18,5 +18,6 @@ INSERT INTO contacts(FirstName,LastName,address,city,state,zip,PhoneNumber,email
     ('sanskar','soni','sadar bazar','chittorgarh','rajasthan',312001,'9887279510','sanskarsoni89@gmail.com');
 
 SELECT * from contacts;
-
 UPDATE contacts SET city = "Mumbai" WHERE FirstName = "a";
+
+delete from contacts where FirstName = "sanskar";
