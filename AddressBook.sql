@@ -27,3 +27,8 @@ Select * from contacts where city="mumbai";
 SELECT count(*) as TotalContact FROM contacts where city != "mumbai";
 
 SELECT * FROM contacts ORDER BY FirstName ASC;
+
+ALTER TABLE contacts add (
+    type VARCHAR(15)
+);
+DESCRIBE contacts;
