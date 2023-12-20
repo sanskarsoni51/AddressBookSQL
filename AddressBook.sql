@@ -25,3 +25,5 @@ delete from contacts where FirstName = "sanskar";
 Select * from contacts where city="mumbai";
 
 SELECT count(*) as TotalContact FROM contacts where city != "mumbai";
+
+SELECT * FROM contacts ORDER BY FirstName ASC;
